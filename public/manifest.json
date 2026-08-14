@@ -1,7 +1,7 @@
 {
-  "name": "Card Rummy",
-  "short_name": "Card Rummy",
-  "description": "Pakistan's premier card gaming platform offering Teen Patti, Rummy, Dragon vs Tiger and more. Earn real cash rewards!",
+  "name": "3 Patti Roulette",
+  "short_name": "3 Patti Roulette",
+  "description": "Teen Patti and roulette earning app for Pakistani Android users. JazzCash and EasyPaisa wallet guides.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#06091F",
@@ -13,10 +13,10 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/card-rummy.webp",
+      "src": "/3-patti-roulette.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any maskable"
     }
   ]
-} 
+}

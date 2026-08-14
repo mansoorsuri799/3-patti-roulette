@@ -1,4 +1,4 @@
-# robots.txt for cardrummyapp.com.pk
+# robots.txt for 3pattiroulette.com.pk
 
 # ============================================
 # AI CONTENT USAGE POLICY
@@ -31,15 +31,16 @@ Disallow: /api/
 Disallow: /admin/
 
 # Priority pages
-Allow: /download-card-rummy
-Allow: /deposit-money-in-card-rummy
-Allow: /withdraw-money-from-card-rummy
-Allow: /card-rummy-for-pc
+Allow: /download-3-patti-roulette
+Allow: /deposit-money-in-3-patti-roulette
+Allow: /withdraw-money-from-3-patti-roulette
+Allow: /3-patti-roulette-for-pc
 Allow: /about-us
 Allow: /blog
-Allow: /blog/is-card-rummy-real-or-fake
-Allow: /blog/create-card-rummy-account-and-login
-Allow: /blog/tips-to-win-big-in-card-rummy
+Allow: /blog/is-3-patti-roulette-real-or-fake
+Allow: /blog/create-3-patti-roulette-account-and-login
+Allow: /blog/tips-to-win-3-patti-roulette
+Allow: /blog/is-3-patti-roulette-safe-legal-pakistan
 
 # Standard pages
 Allow: /contact-us
@@ -122,9 +123,9 @@ Allow: /
 # SITEMAPS
 # ============================================
 
-Sitemap: https://cardrummyapp.com.pk/sitemap-index.xml
-Sitemap: https://cardrummyapp.com.pk/sitemap.xml
-Sitemap: https://cardrummyapp.com.pk/image-sitemap.xml
+Sitemap: https://3pattiroulette.com.pk/sitemap-index.xml
+Sitemap: https://3pattiroulette.com.pk/sitemap.xml
+Sitemap: https://3pattiroulette.com.pk/image-sitemap.xml
 
 # ============================================
 # IMPORTANT: DO NOT ADD Host DIRECTIVE

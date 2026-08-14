@@ -3,23 +3,23 @@ import Link from 'next/link';
 import CtaButton from '@/components/CtaButton';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - Card Rummy | Get Help & Support',
-  description: 'Contact Card Rummy support team for help with the app, content, privacy policy, and more. We are here to assist you.',
-  keywords: 'contact card rummy, card rummy support, card rummy email, customer support, help card rummy',
+  title: 'Contact Us - 3 Patti Roulette | Get Help & Support',
+  description: 'Contact 3 Patti Roulette support team for help with the app, content, privacy policy, and more. We are here to assist you.',
+  keywords: 'contact 3 Patti Roulette, support email, customer support',
   openGraph: {
-    title: 'Contact Us - Card Rummy',
-    description: 'Get in touch with Card Rummy support team for any queries or assistance.',
-    url: 'https://cardrummyapp.com.pk/contact-us',
-    siteName: 'Card Rummy',
+    title: 'Contact Us - 3 Patti Roulette',
+    description: 'Get in touch with 3 Patti Roulette support team for any queries or assistance.',
+    url: 'https://3pattiroulette.com.pk/contact-us',
+    siteName: '3 Patti Roulette',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Contact Us - Card Rummy',
-    description: 'Get in touch with Card Rummy support team for any queries or assistance.',
+    title: 'Contact Us - 3 Patti Roulette',
+    description: 'Get in touch with 3 Patti Roulette support team for any queries or assistance.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/contact-us',
+    canonical: 'https://3pattiroulette.com.pk/contact-us',
   },
   robots: {
     index: true,
@@ -42,7 +42,7 @@ export default function Contact() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                Welcome to the Contact Us page of this site. Here, we will share the source to contact us. Feel free to contact us if you are facing any problems regarding our site, such as <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> APP related content or <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, etc.
+                Welcome to the Contact Us page of this site. Here, we will share the source to contact us. Feel free to contact us if you are facing any problems regarding our site, such as <Link href="/" className="text-accent hover:underline font-semibold">3 Patti Roulette</Link> APP related content or <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, etc.
               </p>
 
               {/* Email Contact Section */}
@@ -56,12 +56,12 @@ export default function Contact() {
                 <p className="text-center mb-4 text-gray-400">Send us your questions or concerns via email</p>
                 <div className="flex justify-center w-full min-w-0 overflow-hidden px-4">
                   <CtaButton
-                    href="mailto:support@cardrummyapp.com.pk"
+                    href="mailto:support@3pattiroulette.com.pk"
                     icon="mail"
-                    ariaLabel="Send email to Card Rummy support"
+                    ariaLabel="Send email to 3 Patti Roulette support"
                     className="max-w-full text-sm sm:text-base md:text-lg px-4 md:px-8"
                   >
-                    support@cardrummyapp.com.pk
+                    support@3pattiroulette.com.pk
                   </CtaButton>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2 text-white">App Information</h3>
-              <p className="text-gray-400 mb-4">Need help with the Card Rummy app?</p>
+              <p className="text-gray-400 mb-4">Need help with the 3 Patti Roulette app?</p>
               <Link href="/" className="text-accent hover:text-accent font-semibold">
                 Learn More →
               </Link>
@@ -121,13 +121,13 @@ export default function Contact() {
             "@type": "ContactPage",
             "mainEntity": {
               "@type": "Organization",
-              "name": "Card Rummy",
-              "url": "https://cardrummyapp.com.pk",
+              "name": "3 Patti Roulette",
+              "url": "https://3pattiroulette.com.pk",
               "contactPoint": {
                 "@type": "ContactPoint",
-                "email": "support@cardrummyapp.com.pk",
+                "email": "support@3pattiroulette.com.pk",
                 "contactType": "Customer Support",
-                "availableLanguage": ["English", "Urdu"]
+                "availableLanguage": ["English"]
               }
             }
           })

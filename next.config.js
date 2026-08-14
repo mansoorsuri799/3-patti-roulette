@@ -59,9 +59,18 @@ const nextConfig = {
       },
       {
         source: '/card-rummy-logo.webp',
-        destination: '/card-rummy.webp',
+        destination: '/3-patti-roulette.webp',
         permanent: true,
       },
+      { source: '/download-card-rummy', destination: '/download-3-patti-roulette', permanent: true },
+      { source: '/deposit-money-in-card-rummy', destination: '/deposit-money-in-3-patti-roulette', permanent: true },
+      { source: '/withdraw-money-from-card-rummy', destination: '/withdraw-money-from-3-patti-roulette', permanent: true },
+      { source: '/card-rummy-for-pc', destination: '/3-patti-roulette-for-pc', permanent: true },
+      { source: '/blog/is-card-rummy-real-or-fake', destination: '/blog/is-3-patti-roulette-real-or-fake', permanent: true },
+      { source: '/blog/create-card-rummy-account-and-login', destination: '/blog/create-3-patti-roulette-account-and-login', permanent: true },
+      { source: '/blog/tips-to-win-big-in-card-rummy', destination: '/blog/tips-to-win-3-patti-roulette', permanent: true },
+      { source: '/blog/is-card-rummy-safe-legal-pakistan', destination: '/blog/is-3-patti-roulette-safe-legal-pakistan', permanent: true },
+      { source: '/blog/create-account-login', destination: '/blog/create-3-patti-roulette-account-and-login', permanent: true },
     ];
   },
 
@@ -72,10 +81,10 @@ const nextConfig = {
         source: '/.well-known/:path*',
         destination: '/public/.well-known/:path*',
       },
-      // Redirect old 3Patti Blue logo to Card Rummy logo
+      // Redirect old logo filenames to 3 Patti Roulette icon
       {
         source: '/3-patti-blue-logo.webp',
-        destination: '/card-rummy.webp',
+        destination: '/3-patti-roulette.webp',
       },
     ];
   },
