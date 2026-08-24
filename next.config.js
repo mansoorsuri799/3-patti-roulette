@@ -140,16 +140,6 @@ const nextConfig = {
           },
         ],
       },
-      // Immutable cache only for fingerprinted static assets
-      {
-        source: '/_next/static/:path*',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
       // Public images: long cache but allow revalidation
       {
         source: '/:path*.webp',
@@ -182,12 +172,34 @@ const nextConfig = {
           },
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
+            value: 'public, max-age=86400, must-revalidate',
+          },
+        ],
+      },
+      {
+        source: '/apple-icon.png',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=86400, must-revalidate',
+          },
+        ],
+      },
+      {
+        source: '/icon.png',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=86400, must-revalidate',
           },
         ],
       },
     ];
   },
+
+  // Next.js 16 uses Turbopack by default. Keep webpack() for `next build --webpack`.
+  turbopack: {},
+  agentRules: false,
 
   // Handle webpack configuration
   webpack: (config, { dev, isServer }) => {

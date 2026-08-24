@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "critters": "^0.0.23",
-    "next": "^15.5.9",
+    "next": "^16.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.58.1",

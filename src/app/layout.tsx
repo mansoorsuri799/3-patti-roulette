@@ -61,14 +61,15 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.ico', type: 'image/x-icon', sizes: '256x256' },
+      { url: '/favicon.ico?v=3patti', type: 'image/x-icon', sizes: '256x256' },
+      { url: '/icon.png?v=3patti', type: 'image/png', sizes: '256x256' },
       { url: IMAGES.logo, type: 'image/webp', sizes: '512x512' }
     ],
     apple: [
-      { url: '/apple-icon.png', sizes: '180x180' }
+      { url: '/apple-icon.png?v=3patti', sizes: '180x180', type: 'image/png' }
     ],
     shortcut: [
-      { url: '/favicon.ico', type: 'image/x-icon' }
+      { url: '/favicon.ico?v=3patti', type: 'image/x-icon' }
     ]
   },
   verification: {
@@ -128,10 +129,11 @@ export default function RootLayout({
       <head>
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="256x256" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico?v=3patti" type="image/x-icon" sizes="256x256" />
+        <link rel="shortcut icon" href="/favicon.ico?v=3patti" type="image/x-icon" />
+        <link rel="icon" href="/icon.png?v=3patti" type="image/png" sizes="256x256" />
         <link rel="icon" href="/3-patti-roulette.webp" type="image/webp" sizes="512x512" />
-        <link rel="apple-touch-icon" href="/apple-icon.png" sizes="180x180" />
+        <link rel="apple-touch-icon" href="/apple-icon.png?v=3patti" sizes="180x180" />
         
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
